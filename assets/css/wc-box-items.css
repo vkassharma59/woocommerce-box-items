@@ -1,0 +1,54 @@
+.pewc-item-field-wrapper .pewc-checkbox-desc-wrapper {
+	display: inline-block;
+}
+.pewc-item-field-wrapper .products-quantities-independent .pewc-radio-image-desc {
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+}
+body.single-product .info .summary input {
+	height: 30px;
+	font-size: 14px;
+}
+.pewc-radio-image-wrapper label img, .pewc-checkbox-image-wrapper label img {
+	width: 70%;
+}
+.pewc-item-field-wrapper .pewc-radio-image-wrapper label input:checked+img, 
+.pewc-item-field-wrapper .pewc-checkbox-image-wrapper label input:checked+img {
+	border-color: #7ad03a;
+}
+.pewc-radio-images-wrapper.pewc-columns-4 .pewc-radio-image-wrapper, 
+.pewc-checkboxes-images-wrapper.pewc-columns-4 .pewc-checkbox-image-wrapper {
+	text-align: center;
+}
+.info .summary .pewc-group-heading-wrapper h3 {
+    font-size: 13px;
+    text-transform: initial;
+}
+div#box-limit-error,
+div#cc-box-weight-cal {
+    font-size: 14px;
+    padding-top: 8px;
+    color: red;
+    font-weight: bold;
+}
+div#cc-box-weight-cal {
+	color: #7ad03a;
+	text-transform: uppercase;
+    position: absolute;
+    top: 0;
+    right: 50px;
+}
+body.single-product .pewc-radio-images-wrapper.pewc-columns-4 .pewc-radio-image-wrapper, 
+body.single-product .pewc-checkboxes-images-wrapper.pewc-columns-4 .pewc-checkbox-image-wrapper {
+	width: 25%;
+}
+body.single-product .pewc-groups-standard {
+    position: relative;
+}
+.shop_table.cart .pewc-child-product .quantity input {
+    pointer-events: none;
+} 
+.shop_table.cart .pewc-child-product span.increase-qty {
+    pointer-events: none;
+}
